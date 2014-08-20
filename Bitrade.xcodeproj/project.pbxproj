@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF061A419A47EEE0019C059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF061A319A47EEE0019C059 /* AppDelegate.swift */; };
+		ABF061A719A47EEE0019C059 /* Bitrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABF061A519A47EEE0019C059 /* Bitrade.xcdatamodeld */; };
+		ABF061A919A47EEE0019C059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF061A819A47EEE0019C059 /* ViewController.swift */; };
+		ABF061AC19A47EEE0019C059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF061AA19A47EEE0019C059 /* Main.storyboard */; };
+		ABF061AE19A47EEE0019C059 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF061AD19A47EEE0019C059 /* Images.xcassets */; };
+		ABF061BA19A47EEF0019C059 /* BitradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF061B919A47EEF0019C059 /* BitradeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF061B419A47EEF0019C059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF0619619A47EEE0019C059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF0619D19A47EEE0019C059;
+			remoteInfo = Bitrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF0619E19A47EEE0019C059 /* Bitrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF061A219A47EEE0019C059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF061A319A47EEE0019C059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF061A619A47EEE0019C059 /* Bitrade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bitrade.xcdatamodel; sourceTree = "<group>"; };
+		ABF061A819A47EEE0019C059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABF061AB19A47EEE0019C059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF061AD19A47EEE0019C059 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF061B319A47EEF0019C059 /* BitradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF061B819A47EEF0019C059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF061B919A47EEF0019C059 /* BitradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitradeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF0619B19A47EEE0019C059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF061B019A47EEF0019C059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF0619519A47EEE0019C059 = {
+			isa = PBXGroup;
+			children = (
+				ABF061A019A47EEE0019C059 /* Bitrade */,
+				ABF061B619A47EEF0019C059 /* BitradeTests */,
+				ABF0619F19A47EEE0019C059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF0619F19A47EEE0019C059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0619E19A47EEE0019C059 /* Bitrade.app */,
+				ABF061B319A47EEF0019C059 /* BitradeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF061A019A47EEE0019C059 /* Bitrade */ = {
+			isa = PBXGroup;
+			children = (
+				ABF061A319A47EEE0019C059 /* AppDelegate.swift */,
+				ABF061A819A47EEE0019C059 /* ViewController.swift */,
+				ABF061AA19A47EEE0019C059 /* Main.storyboard */,
+				ABF061AD19A47EEE0019C059 /* Images.xcassets */,
+				ABF061A519A47EEE0019C059 /* Bitrade.xcdatamodeld */,
+				ABF061A119A47EEE0019C059 /* Supporting Files */,
+			);
+			path = Bitrade;
+			sourceTree = "<group>";
+		};
+		ABF061A119A47EEE0019C059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF061A219A47EEE0019C059 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF061B619A47EEF0019C059 /* BitradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF061B919A47EEF0019C059 /* BitradeTests.swift */,
+				ABF061B719A47EEF0019C059 /* Supporting Files */,
+			);
+			path = BitradeTests;
+			sourceTree = "<group>";
+		};
+		ABF061B719A47EEF0019C059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF061B819A47EEF0019C059 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF0619D19A47EEE0019C059 /* Bitrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF061BD19A47EEF0019C059 /* Build configuration list for PBXNativeTarget "Bitrade" */;
+			buildPhases = (
+				ABF0619A19A47EEE0019C059 /* Sources */,
+				ABF0619B19A47EEE0019C059 /* Frameworks */,
+				ABF0619C19A47EEE0019C059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitrade;
+			productName = Bitrade;
+			productReference = ABF0619E19A47EEE0019C059 /* Bitrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF061B219A47EEF0019C059 /* BitradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF061C019A47EEF0019C059 /* Build configuration list for PBXNativeTarget "BitradeTests" */;
+			buildPhases = (
+				ABF061AF19A47EEF0019C059 /* Sources */,
+				ABF061B019A47EEF0019C059 /* Frameworks */,
+				ABF061B119A47EEF0019C059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF061B519A47EEF0019C059 /* PBXTargetDependency */,
+			);
+			name = BitradeTests;
+			productName = BitradeTests;
+			productReference = ABF061B319A47EEF0019C059 /* BitradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF0619619A47EEE0019C059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Rukmal Weerawarana";
+				TargetAttributes = {
+					ABF0619D19A47EEE0019C059 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					ABF061B219A47EEF0019C059 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = ABF0619D19A47EEE0019C059;
+					};
+				};
+			};
+			buildConfigurationList = ABF0619919A47EEE0019C059 /* Build configuration list for PBXProject "Bitrade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF0619519A47EEE0019C059;
+			productRefGroup = ABF0619F19A47EEE0019C059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF0619D19A47EEE0019C059 /* Bitrade */,
+				ABF061B219A47EEF0019C059 /* BitradeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF0619C19A47EEE0019C059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF061AC19A47EEE0019C059 /* Main.storyboard in Resources */,
+				ABF061AE19A47EEE0019C059 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF061B119A47EEF0019C059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF0619A19A47EEE0019C059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF061A919A47EEE0019C059 /* ViewController.swift in Sources */,
+				ABF061A419A47EEE0019C059 /* AppDelegate.swift in Sources */,
+				ABF061A719A47EEE0019C059 /* Bitrade.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF061AF19A47EEF0019C059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF061BA19A47EEF0019C059 /* BitradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF061B519A47EEF0019C059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF0619D19A47EEE0019C059 /* Bitrade */;
+			targetProxy = ABF061B419A47EEF0019C059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF061AA19A47EEE0019C059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF061AB19A47EEE0019C059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF061BB19A47EEF0019C059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABF061BC19A47EEF0019C059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF061BE19A47EEF0019C059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bitrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABF061BF19A47EEF0019C059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bitrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABF061C119A47EEF0019C059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitrade.app/Bitrade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		ABF061C219A47EEF0019C059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitrade.app/Bitrade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF0619919A47EEE0019C059 /* Build configuration list for PBXProject "Bitrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF061BB19A47EEF0019C059 /* Debug */,
+				ABF061BC19A47EEF0019C059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF061BD19A47EEF0019C059 /* Build configuration list for PBXNativeTarget "Bitrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF061BE19A47EEF0019C059 /* Debug */,
+				ABF061BF19A47EEF0019C059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF061C019A47EEF0019C059 /* Build configuration list for PBXNativeTarget "BitradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF061C119A47EEF0019C059 /* Debug */,
+				ABF061C219A47EEF0019C059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABF061A519A47EEE0019C059 /* Bitrade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABF061A619A47EEE0019C059 /* Bitrade.xcdatamodel */,
+			);
+			currentVersion = ABF061A619A47EEE0019C059 /* Bitrade.xcdatamodel */;
+			path = Bitrade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABF0619619A47EEE0019C059 /* Project object */;
+}
